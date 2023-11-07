@@ -8,6 +8,7 @@ class MenuList(generic.ListView):
     template_name = "index.html"
 
 
+
 class MenuItemDetail(generic.DetailView):
     model = Item
     template_name = "menu_item_detail.html"
